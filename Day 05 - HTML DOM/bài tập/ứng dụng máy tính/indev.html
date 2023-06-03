@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Máy tính</h1>
+    <div>
+        <input type="number" placeholder="First Number" id="firstNumber" onkeypress="onkeypress()">
+        <input type="number" placeholder="Second Number" id="secondNumber">
+    </div>
+    <div>
+        <button id="addBtn" onclick="add()">Cộng +</button>
+        <button id="minusBtn" onclick="minus()">Trừ -</button>
+        <button id="multiplicationBtn" onclick="multiplication()">Nhân x</button>
+        <button id="divisionBtn" onclick="division()">Chia :</button>
+    </div>
+    <div>
+        <p>Kết Quả : <span id="result"></span></p>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
