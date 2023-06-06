@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tempetature Converter</h1>
+    <p>Type a value in the Fahrenheit field to convert the value to Celcius:</p>
+    <span>Fahrenheit </span>
+    <input type="number" id="fahrenheit" name="fahrenheit" min="0" max="300" step="0.1" value="32" oninput="temperatureConverter(this.value)"
+    onchange="temperatureConverter(this.value)">
+    <p>Celsius: <span id="outputCelsius"></span></p>
+</body>
+<script src="./index.js"></script>
+</html>
